@@ -4,4 +4,4 @@ module Day4
 
 multipleArrayTen x = [(x * y) | y <- [1..10]]
 multipleArray x y = [(x * y) | y <- [1..y]]
-day4 = print 4
+day4 = print "not done"
