@@ -22,4 +22,5 @@ main = do
         else if input == 4
           then do
             day4
-            else  print "Invalid Selection"
+          else if input == 5
+  else  print "Invalid Selection"
