@@ -4,6 +4,7 @@ module Day1
 
 day1 :: IO ()
 day1 = do
+  
   let num = 4
   let fpn = 4.0
   let str = "HackerRank "

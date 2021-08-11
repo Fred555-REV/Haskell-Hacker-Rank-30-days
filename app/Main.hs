@@ -10,4 +10,4 @@ main = do
   let input = read selection::Int
   if input == 1
     then day1
-  else  print "Hmmm"
+  else  print "Invalid Selection"
