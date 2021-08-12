@@ -5,6 +5,7 @@ import Day1
 import Day2
 import Day3
 import Day4
+import Day5
 
 main :: IO ()
 main = do
@@ -14,13 +15,11 @@ main = do
   if input == 1
     then day1
     else if input == 2
-      then do
-        day2
+      then day2
       else if input == 3
-        then do
-          day3
+        then day3
         else if input == 4
-          then do
-            day4
+          then day4
           else if input == 5
-  else  print "Invalid Selection"
+            then day5
+  else print "Invalid Selection"
